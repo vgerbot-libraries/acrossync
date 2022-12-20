@@ -1,0 +1,33 @@
+{
+  "name": "@rollup-jest-boilerplate/package1",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "y1j2x34 <y1j2x34@qq.com>",
+  "homepage": "https://github.com/y1j2x34/rollup-jest-boilerplate/tree/main/packages/core#readme",
+  "license": "MIT",
+  "main": "lib/index.cjs.js",
+  "browser": "lib/index.umd.js",
+  "module": "lib/index.es.js",
+  "library": "Boilerplate",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y1j2x34/rollup-jest-boilerplate.git"
+  },
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/y1j2x34/rollup-jest-boilerplate/issues"
+  },
+  "dependencies": {
+    "browser-detect": "^0.2.28"
+  }
+}
